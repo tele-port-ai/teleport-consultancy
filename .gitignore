@@ -137,3 +137,67 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+
+
+
+# =====================================================
+# TELE PORT CONSULTANCY — SECURITY & INFRASTRUCTURE
+# =====================================================
+
+# ---- Supabase ----
+.supabase/
+supabase/.temp/
+supabase/.branches/
+supabase/config.local.toml
+supabase/.env
+supabase/.env.*
+
+# ---- Database ----
+*.sql.bak
+*.dump
+*.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Uploaded client documents (LEGAL RISK)
+storage/
+uploads/
+user_uploads/
+private_documents/
+
+# ---- Secrets / Keys ----
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+service_account.json
+credentials.json
+secrets.json
+
+# ---- Environment ----
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- Codespaces / Devcontainers ----
+.devcontainer/private/
+.devcontainer/secrets.env
+
+# ---- Firebase (future safe) ----
+.firebase/
+firebase-debug.log
+.firebaserc.local
+
+# ---- OS / temp ----
+.tmp/
+temp/
+*.tmp
+
+# ---- AI caches (later) ----
+.ai/
+.cache/ai/
